@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="calculator-mainDiv">
+        <div class="scrin">
+            <input type="text" name="" id="result">
+        </div>
+        <div class="number-field">
+            <div class="field-up">
+                <button type="submit" value="" onclick="deletLast()"> <--</button>
+                <button type="submit" value="" onclick="delet()">C</button>
+
+            </div>
+            <div class="field-1">
+                <button type="submit" value="" onclick="calculat('(')">(</button>
+                <button type="submit" value="" onclick="calculat(')')">)</button>
+                <button type="submit" value="" onclick="calculat('%')">%</button>
+                <button type="submit" value="" onclick="calculat('*')">x</button>
+            </div>
+            <div class="field-2">
+                <button type="submit" value="" onclick="calculat('7')">7</button>
+                <button type="submit" value="" onclick="calculat('8')">8</button>
+                <button type="submit" value="" onclick="calculat('9')">9</button>
+                <button type="submit" value="" onclick="calculat('/')">/</button>
+            </div>
+            <div class="field-3">
+                <button type="submit" value="" onclick="calculat('4')">4</button>
+                <button type="submit" value="" onclick="calculat('5')">5</button>
+                <button type="submit" value="" onclick="calculat('6')">6</button>
+                <button type="submit" value="" onclick="calculat('-')">-</button>
+            </div>
+            <div class="field-4">
+                <button type="submit" value="" onclick="calculat('1')">1</button>
+                <button type="submit" value="" onclick="calculat('2')">2</button>
+                <button type="submit" value="" onclick="calculat('3')">3</button>
+                <button type="submit" value="" onclick="calculat('+')">+</button>
+            </div>
+            <div class="field-4">
+                <button type="submit" value="" onclick="calculat('00')">00</button>
+                <button type="submit" value="" onclick="calculat('0')">0</button>
+                <button type="submit" value="" onclick="calculat('.')">.</button>
+                <button type="submit" value="" onclick="answer()">=</button>
+            </div>
+        </div> <br/>
+        <h4>&copy; Asadullah</h4>
+    </div>
+<script src="js.js"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.field-up{
+    margin-left: 44%;
+}
+.scrin input{
+    height: 60px;
+    width: 98%;
+    font-size: 2rem;
+    text-align: end;
+}
+#result:focus-visible{
+    background-color: antiquewhite;
+    border: none;
+}
+#result{
+    border: 1px solid rgb(83, 78, 78);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: inset 1px 1px 6px 1px rgb(221 173 173), 
+                inset 1px -10px 5px -8px rgb(141 125 125),
+                    1px 2px 5px 2px rgb(70, 57, 57);
+}
+.calculator-mainDiv{
+    margin: 50px;
+    margin-left: 30%;
+    text-align: center;
+    height: 580px;
+    width: 350px;
+    background-color: var(--ELECTRIC-BLUE-color);
+    border-radius: 20px;
+    box-shadow: rgb(133, 133, 243) 2px 1px 1px 6px;
+}
+.number-field button{
+    height: 80px;
+    width: 80px;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: rgb(26, 24, 24);
+    color: #ffff;
+    border-radius: 50%;
+    margin-top: 2px;
+    box-shadow: 5px 5px 5px 2px black,
+                inset -2px -4px 5px 2px black;
+}
+.number-field button:active{
+    background-color: rgb(34, 25, 25);
+}
+
+:root {
+    --offblue-color: #E2D1f9;
+    --offgreen-color: #317773;
+    --OFFWHITE-color :#FCF6F5FF;
+    --RED-color: #990011FF;
+    --GREEN-color:#CCF381 ;
+    --ELECTRIC-BLUE-color:#4831D4 ;
+    --CHARCOAL-color:#101820FF ;
+    --YELLOW-color:#FEE715FF ;
+    --OFFREAD-color:#F96167 ;
+    --OFFYELOW-color:#FCE77D ;
+    --BLUE-color:#2F3C7E ;
+    --PINK-color:#FBEAEB ;
+    --ROYAL-BLUE-color:#00539CFF ;
+    --PEACH-color:#EEA47FFF ;
+}
